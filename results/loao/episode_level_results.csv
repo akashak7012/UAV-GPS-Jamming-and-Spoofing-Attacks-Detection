@@ -1,0 +1,49 @@
+recording_id,airframe,scenario,is_attack_flight,detected,t_onset_us,t_confirm_us,ttd_s,pre_attack_fa_events,termination_alarm,post_attack_fa_events,total_fa_events,authentic_dur_s,feature_set,model_name,fold_id
+PLANE_Norm,PLANE,Normal,False,,,,,0,False,0,21,1032.588,kinematics_only,GradientBoosting,1
+PLANE_Spoof,PLANE,GPS Spoofing,True,True,435632000.0,439832000.0,4.2,17,False,7,24,627.468,kinematics_only,GradientBoosting,1
+QUAD_Norm,QUAD,Normal,False,,,,,0,False,0,0,1476.544,kinematics_only,GradientBoosting,2
+QUAD_Spoof,QUAD,GPS Spoofing,True,False,1273652000.0,,,0,False,0,0,1515.3519999999999,kinematics_only,GradientBoosting,2
+TAIL_Norm,TAIL,Normal,False,,,,,0,False,0,16,454.132,kinematics_only,GradientBoosting,3
+TAIL_Spoof,TAIL,GPS Spoofing,True,True,351732000.0,377232000.0,25.5,13,True,3,16,479.53200000000004,kinematics_only,GradientBoosting,3
+VTOL_Norm,VTOL,Normal,False,,,,,0,False,0,18,434.932,kinematics_only,GradientBoosting,4
+VTOL_Spoof,VTOL,GPS Spoofing,True,True,294432000.0,318332000.0,23.9,11,True,11,22,490.728,kinematics_only,GradientBoosting,4
+PLANE_Norm,PLANE,Normal,False,,,,,0,False,0,15,1032.588,pos_speed_only,GradientBoosting,1
+PLANE_Spoof,PLANE,GPS Spoofing,True,True,435632000.0,436632000.0,1.0,9,True,7,16,627.468,pos_speed_only,GradientBoosting,1
+QUAD_Norm,QUAD,Normal,False,,,,,0,False,0,0,1476.544,pos_speed_only,GradientBoosting,2
+QUAD_Spoof,QUAD,GPS Spoofing,True,False,1273652000.0,,,0,True,0,0,1515.3519999999999,pos_speed_only,GradientBoosting,2
+TAIL_Norm,TAIL,Normal,False,,,,,0,False,0,1,454.132,pos_speed_only,GradientBoosting,3
+TAIL_Spoof,TAIL,GPS Spoofing,True,True,351732000.0,352132000.0,0.4,1,True,2,3,479.53200000000004,pos_speed_only,GradientBoosting,3
+VTOL_Norm,VTOL,Normal,False,,,,,0,False,0,12,434.932,pos_speed_only,GradientBoosting,4
+VTOL_Spoof,VTOL,GPS Spoofing,True,True,294432000.0,294832000.0,0.4,8,True,6,14,490.728,pos_speed_only,GradientBoosting,4
+PLANE_Norm,PLANE,Normal,False,,,,,0,False,0,25,1032.588,discrepancy_rolling_only,GradientBoosting,1
+PLANE_Spoof,PLANE,GPS Spoofing,True,True,435632000.0,436032000.0,0.4,16,True,8,24,627.468,discrepancy_rolling_only,GradientBoosting,1
+QUAD_Norm,QUAD,Normal,False,,,,,0,False,0,0,1476.544,discrepancy_rolling_only,GradientBoosting,2
+QUAD_Spoof,QUAD,GPS Spoofing,True,False,1273652000.0,,,0,True,0,0,1515.3519999999999,discrepancy_rolling_only,GradientBoosting,2
+TAIL_Norm,TAIL,Normal,False,,,,,0,False,0,60,454.132,discrepancy_rolling_only,GradientBoosting,3
+TAIL_Spoof,TAIL,GPS Spoofing,True,True,351732000.0,352132000.0,0.4,48,True,7,55,479.53200000000004,discrepancy_rolling_only,GradientBoosting,3
+VTOL_Norm,VTOL,Normal,False,,,,,0,False,0,30,434.932,discrepancy_rolling_only,GradientBoosting,4
+VTOL_Spoof,VTOL,GPS Spoofing,True,True,294432000.0,294832000.0,0.4,21,True,20,41,490.728,discrepancy_rolling_only,GradientBoosting,4
+PLANE_Norm,PLANE,Normal,False,,,,,0,False,0,26,1032.588,complete_features,GradientBoosting,1
+PLANE_Spoof,PLANE,GPS Spoofing,True,True,435632000.0,436032000.0,0.4,13,True,10,23,627.468,complete_features,GradientBoosting,1
+QUAD_Norm,QUAD,Normal,False,,,,,0,False,0,0,1476.544,complete_features,GradientBoosting,2
+QUAD_Spoof,QUAD,GPS Spoofing,True,False,1273652000.0,,,0,True,0,0,1515.3519999999999,complete_features,GradientBoosting,2
+TAIL_Norm,TAIL,Normal,False,,,,,0,False,0,17,454.132,complete_features,GradientBoosting,3
+TAIL_Spoof,TAIL,GPS Spoofing,True,True,351732000.0,352132000.0,0.4,8,True,3,11,479.53200000000004,complete_features,GradientBoosting,3
+VTOL_Norm,VTOL,Normal,False,,,,,0,False,0,15,434.932,complete_features,GradientBoosting,4
+VTOL_Spoof,VTOL,GPS Spoofing,True,True,294432000.0,318332000.0,23.9,14,True,10,24,490.728,complete_features,GradientBoosting,4
+PLANE_Norm,PLANE,Normal,False,,,,,0,False,0,0,1032.588,complete_features,RandomForest,1
+PLANE_Spoof,PLANE,GPS Spoofing,True,False,435632000.0,,,0,True,0,0,627.468,complete_features,RandomForest,1
+QUAD_Norm,QUAD,Normal,False,,,,,0,False,0,0,1476.544,complete_features,RandomForest,2
+QUAD_Spoof,QUAD,GPS Spoofing,True,False,1273652000.0,,,0,False,0,0,1515.3519999999999,complete_features,RandomForest,2
+TAIL_Norm,TAIL,Normal,False,,,,,0,False,0,4,454.132,complete_features,RandomForest,3
+TAIL_Spoof,TAIL,GPS Spoofing,True,True,351732000.0,377032000.0,25.3,3,True,1,4,479.53200000000004,complete_features,RandomForest,3
+VTOL_Norm,VTOL,Normal,False,,,,,0,False,0,4,434.932,complete_features,RandomForest,4
+VTOL_Spoof,VTOL,GPS Spoofing,True,False,294432000.0,,,3,False,2,5,490.728,complete_features,RandomForest,4
+PLANE_Norm,PLANE,Normal,False,,,,,0,False,0,14,1032.588,complete_features,LogisticRegression,1
+PLANE_Spoof,PLANE,GPS Spoofing,True,True,435632000.0,436032000.0,0.4,12,True,4,16,627.468,complete_features,LogisticRegression,1
+QUAD_Norm,QUAD,Normal,False,,,,,0,False,0,0,1476.544,complete_features,LogisticRegression,2
+QUAD_Spoof,QUAD,GPS Spoofing,True,True,1273652000.0,1297852000.0,24.2,0,False,0,0,1515.3519999999999,complete_features,LogisticRegression,2
+TAIL_Norm,TAIL,Normal,False,,,,,0,False,0,7,454.132,complete_features,LogisticRegression,3
+TAIL_Spoof,TAIL,GPS Spoofing,True,True,351732000.0,352132000.0,0.4,7,True,2,9,479.53200000000004,complete_features,LogisticRegression,3
+VTOL_Norm,VTOL,Normal,False,,,,,0,False,0,12,434.932,complete_features,LogisticRegression,4
+VTOL_Spoof,VTOL,GPS Spoofing,True,True,294432000.0,294832000.0,0.4,9,True,5,14,490.728,complete_features,LogisticRegression,4

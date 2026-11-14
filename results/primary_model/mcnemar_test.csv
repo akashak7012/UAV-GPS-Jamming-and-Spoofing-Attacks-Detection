@@ -1,0 +1,2 @@
+Both_Correct (n11),HGB_Correct_RF_Wrong (n10),HGB_Wrong_RF_Correct (n01),Both_Wrong (n00),McNemar_Statistic_Exact,p_value_Exact,McNemar_Statistic_Chi2,p_value_Chi2,Statistically_Significant (alpha=0.05)
+134,6,15,24,6.0,0.0783538818359375,3.0476190476190474,0.08085559837005234,False

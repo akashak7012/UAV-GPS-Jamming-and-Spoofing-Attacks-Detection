@@ -1,0 +1,6 @@
+Experiment_Type,Name,Features,Accuracy,Macro_F1
+Model Comparison,Random Forest,8,0.8770949720670391,0.8614379084967321
+Model Comparison,Gradient Boosting,8,0.9385474860335196,0.926017575584531
+Model Comparison,SVM,8,0.5865921787709497,0.5337158965065941
+Model Comparison,Logistic Regression,8,0.770949720670391,0.736869191414646
+Model Comparison,XGBoost,8,0.8435754189944135,0.8254781591433562

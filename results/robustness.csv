@@ -1,0 +1,6 @@
+Experiment_Type,Name,Features,Accuracy,Macro_F1
+Robustness,Absolute GPS + Velocity,8,0.9385474860335196,0.926017575584531
+Robustness,Altitude + Velocity,6,0.8659217877094972,0.8422619047619048
+Robustness,Relative Motion,5,0.3687150837988827,0.30066871934058387
+Robustness,Velocity + GPS Quality,12,0.5418994413407822,0.5477945477945477
+Robustness,Altitude + Velocity + Quality,13,0.8156424581005587,0.8044624751941826

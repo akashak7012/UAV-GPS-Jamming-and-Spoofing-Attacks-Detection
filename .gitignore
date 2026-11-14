@@ -1,0 +1,18 @@
+# Environments
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Raw Data (Too large for GitHub, users should download the original IEEE DataPort dataset)
+Live GPS Spoofing and Jamming/
+Simulated - OTU Survey/
+*.ulg
+
+# Models (Ignore large pickle files, or track via Git LFS if preferred)
+models/*.pkl
+Prepared/*.pkl
+
+# OS generated files
+.DS_Store
+Thumbs.db
