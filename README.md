@@ -142,7 +142,7 @@ UAVAttackData/
 ### 1. Environment Setup
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/akashak7012/UAV-GPS-Jamming-and-Spoofing-Attacks-Detection
 cd UAVAttackData
 
 # Create and activate a Python virtual environment
